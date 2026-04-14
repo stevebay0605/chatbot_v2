@@ -127,19 +127,11 @@ export default function Home() {
         <aside className="glass-panel flex flex-col justify-between gap-5 rounded-[2rem] p-5 sm:p-6">
           <div className="space-y-5">
             <div className="space-y-4">
-              <Badge
-                variant="outline"
-                className="w-fit gap-2 border-white/60 bg-white/70 px-3 py-1 tracking-[0.2em] text-foreground/70 uppercase"
-              >
-                <Sparkles className="size-3.5 text-primary" />
-                Interface retravaillee
-              </Badge>
+            
 
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <div className="flex size-12 items-center justify-center rounded-2xl bg-[color:color-mix(in_oklab,var(--primary)_88%,white)] text-primary-foreground shadow-[0_18px_35px_-20px_color-mix(in_oklab,var(--primary)_60%,black)]">
-                    <MessageSquareText className="size-6" />
-                  </div>
+                  
                   <div>
                     <p className="text-sm font-medium text-foreground/60">
                       SteveChat
@@ -229,15 +221,7 @@ export default function Home() {
             </Card>
           </div>
 
-          <Card className="gap-0 rounded-[1.75rem] border-black/5 bg-[linear-gradient(135deg,color-mix(in_oklab,var(--secondary)_38%,white),white)] py-4 text-sm text-foreground/80 shadow-[0_22px_60px_-42px_rgba(15,23,42,0.4)]">
-            <CardHeader className="px-4 pb-2">
-              <CardTitle className="text-base">Petit plus UX</CardTitle>
-            </CardHeader>
-            <CardContent className="px-4 pt-0 leading-6">
-              `Entree` envoie le message et `Maj + Entree` permet de passer a la
-              ligne dans le champ de saisie.
-            </CardContent>
-          </Card>
+          
         </aside>
 
         <section className="glass-panel flex min-h-[70dvh] flex-col rounded-[2rem] p-3 sm:p-4 lg:min-h-[calc(100dvh-4rem)]">
@@ -343,7 +327,7 @@ export default function Home() {
             )}
           </div>
 
-          <Card className="mt-3 gap-0 rounded-[1.75rem] border-white/60 bg-white/72 py-3 shadow-[0_20px_50px_-40px_rgba(15,23,42,0.45)] backdrop-blur-xl">
+          <Card className="mt-3 gap-0 rounded-[1.75rem] border-white/60 bg-white/72 py-3 shadow-[0_20px_50px_-40px_rgba(15,23,42,0.45)] backdrop-blur-x">
             <CardContent className="px-3 pt-0">
               <div className="flex flex-col gap-3 lg:flex-row lg:items-end">
               <label className="flex-1">
